@@ -32,3 +32,23 @@ ul{
   border-right: none;
 }
 }
+#test_btn1{
+  margin-right:-4px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+#test_btn2{
+  margin-left:-4px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+#btn_group button{
+  border:1px solid skyblue;
+  background-color: white;
+  color:skyblue;
+  padding: 5px;}
+  #btn_group button:hover{
+  color:white;
+  background-color: skyblue;
+  }
