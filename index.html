@@ -1,24 +1,40 @@
 <! doctype html>
 <html>
 <head>
-  <title>참치마요</title>
   <meta charset="utf-8">
+  <title>참치마요</title>
 <link rel="stylesheet" href="style.css">
 </head>
 
 
 <body>
   <h1>참치마요 WEBSITE에 오신 것을 환영합니다</h1>
+
+  <input id="night_day" type="button" value="night" onclick="
+  if(document.querySelector('#night_day').value ==='night'){
+  document.querySelector('body').style.backgroundColor = 'black';
+  document.querySelector('body').style.color = 'white';
+  document.querySelector('#night_day').value = 'day';
+  }
+
+  else{
+  document.querySelector('body').style.backgroundColor = 'white';
+  document.querySelector('body').style.color = 'black';
+  document.querySelector('#night_day').value ='night';
+  }
+  ">
+
+
 <div id="grid">
 
       <ul>
         <div id="멤버">MEMBERS</div><br>
         <li><a href = "김재학.html">김재학(허짜장이야)  - 정상인</a></li><br>
-        <li><a href = "배재용.html">배재용(독산동킹스맨) - <strong>사랑꾼</strong>이 되고싶은 자</a></li><br>
+        <li><a href = "배재용.html">배재용(응왜스님) - <strong>사랑꾼</strong>이 되고싶은 자</a></li><br>
         <li><a href = "조성인.html">조성인(파주홀)  -  <strong>파주탈출</strong>을 꿈꾸는소년</a></li><br>
-        <li><a href = "이대열.html">이대열(PLAYBOY) - 대)<strong>배재용</strong> 전문 딜러</a></li><br>
+        <li><a href = "이대열.html">이대열(음예스님) - 대)<strong>배재용</strong> 전문 딜러</a></li><br>
         <li><a href = "임현승.html">임현승(런던의주인)  - <strong>날빌</strong>전문가 4드론</a></li><br>
-        <li><a href = "백종진.html">백종진(애기스님) - <strong>안암골</strong>레전드</a></li><br>
+        <li><a href = "백종진.html">백종진(동자스님) - <strong>안암골</strong>레전드</a></li><br>
       </ul>
 
       <div id="본문">
