@@ -10,6 +10,33 @@
 
 <body>
   <h1>참치마요 WEBSITE에 오신 것을 환영합니다</h1>
+  <input id="night_day" type="button" value="야간모드" onclick="
+  var target =   document.querySelector('body');
+  if(this.value ==='야간모드'){
+  target.style.backgroundColor = 'black';
+  target.style.color = 'white';
+  this.value = '주간모드';
+
+  var alist = document.querySelectorAll('a');
+  var i = 0;
+  while(i < alist.length) {
+    alist[i].style.color = 'powderblue';
+    i = i + 1
+  }
+  }
+
+  else{
+  target.style.backgroundColor = 'white';
+  target.style.color = 'black';
+  this.value ='야간모드';
+  var alist = document.querySelectorAll('a');
+  var i = 0;
+  while(i < alist.length) {
+    alist[i].style.color = 'black';
+    i = i + 1
+  }
+  }
+  ">
 <div id="grid">
 
       <ul>
@@ -18,7 +45,7 @@
           <button id="test_btn1"><a href = "javascript:history.back(-1)">BACK</button>
           <button id="test_btn2"><a href = "https://wogkr24.github.io/index.html/">HOME</button>
         </div>
-        
+
         <li><a href = "김재학.html">김재학(허짜장이야)  - 정상인</a></li><br>
         <li><a href = "배재용.html">배재용(응왜스님) - <strong>사랑꾼</strong>이 되고싶은 자</a></li><br>
         <li><a href = "조성인.html">조성인(파주홀)  -  <strong>파주탈출</strong>을 꿈꾸는소년</a></li><br>

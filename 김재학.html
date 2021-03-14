@@ -12,6 +12,34 @@
 
 <body>
   <h1>참치마요 WEBSITE에 오신 것을 환영합니다</h1>
+
+  <input id="night_day" type="button" value="야간모드" onclick="
+  var target =   document.querySelector('body');
+  if(this.value ==='야간모드'){
+  target.style.backgroundColor = 'black';
+  target.style.color = 'white';
+  this.value = '주간모드';
+
+  var alist = document.querySelectorAll('a');
+  var i = 0;
+  while(i < alist.length) {
+    alist[i].style.color = 'powderblue';
+    i = i + 1
+  }
+  }
+
+  else{
+  target.style.backgroundColor = 'white';
+  target.style.color = 'black';
+  this.value ='야간모드';
+  var alist = document.querySelectorAll('a');
+  var i = 0;
+  while(i < alist.length) {
+    alist[i].style.color = 'black';
+    i = i + 1
+  }
+  }
+  ">
 <div id="grid">
 
       <ul>
