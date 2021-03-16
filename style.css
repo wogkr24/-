@@ -3,7 +3,7 @@ body{
 }
 a {
 
-  text-decoration : none;
+  text-decoration : none; color:black;
   }
 h1{
   font-size: 60px;text-align: center; border-bottom: 3px solid pink; margin:0; padding:20px; content: 20px
@@ -52,5 +52,3 @@ ul{
   color:red;
   background-color: skyblue;
   }
-
-  
